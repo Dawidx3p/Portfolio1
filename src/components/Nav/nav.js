@@ -1,5 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import './nav.css';
 
 export default function NavBar() {
     return(
