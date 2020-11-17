@@ -17,7 +17,7 @@ import { Popover, OverlayTrigger } from 'react-bootstrap';
               <OverlayTrigger trigger="click" placement="top" overlay={popover}>
               <FontAwesomeIcon id="mail" icon={faEnvelope} size="3x" />
               </OverlayTrigger>
-              <a target="_blank" href='https://www.linkedin.com/in/dawid-debiec/'><FontAwesomeIcon icon={faLinkedin} size="3x" /></a>
+              <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/dawid-debiec/'><FontAwesomeIcon icon={faLinkedin} size="3x" /></a>
               
             </div>
             );
