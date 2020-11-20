@@ -1,7 +1,7 @@
 import './Footer.css';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Popover, OverlayTrigger } from 'react-bootstrap';
 
 
@@ -18,7 +18,7 @@ import { Popover, OverlayTrigger } from 'react-bootstrap';
               <FontAwesomeIcon id="mail" icon={faEnvelope} size="3x" />
               </OverlayTrigger>
               <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/dawid-debiec/'><FontAwesomeIcon icon={faLinkedin} size="3x" /></a>
-              
+              <a target="_blank" rel="noopener noreferrer" href='https://github.com/Dawidx3p'><FontAwesomeIcon icon={faGithub} size="3x" /></a>
             </div>
             );
         };
