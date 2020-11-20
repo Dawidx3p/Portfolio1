@@ -6,7 +6,8 @@ export default function MyProjects() {
         <Row>
             <Col>
                 <h2>My projects</h2>
-                <ul><li>first one</li>
+                <ul>
+                <li><a href="spotthelist.tk">SpotTheList</a></li>
                 <li>Second</li>
                 <li>Third Project</li></ul>
             </Col>
